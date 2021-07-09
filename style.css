@@ -1,0 +1,68 @@
+body {
+    margin:0;
+    padding:0;
+
+}
+
+.header {
+    height:450px;
+    position: relative;
+    width:100%;
+    background-image:url(https://images.pexels.com/photos/1051075/pexels-photo-1051075.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500);
+    -webkit-background-size:cover;
+    background-size:cover;
+    background-position: center center;
+    background-attachment: fixed;
+
+}
+.header img {
+    width:100%;
+}
+
+.content {
+    background:gainsboro;
+    color:#262626;
+    height:450px;
+    padding-top:160px;
+    position: relative;
+    text-align: center;
+    width:100%;
+}
+
+.content h2 {
+    text-align: center;
+    font-size:30px;
+    text-transform: uppercase;
+    
+}
+
+
+.content p {
+    padding:0 150px;
+    line-height: 1.9;
+}
+
+.content:before {
+    position: absolute;
+    content:'';
+    width:92%;
+    height:200px;
+    top:-40px;
+    left:0;
+    background:gainsboro;
+    transform:skewY(10deg);
+    
+
+}
+
+.content:after{
+    position: absolute;
+    content:'';
+    width:60%;
+    height:125px;
+    top:-40px;
+    right:0;
+    background:gainsboro;
+    transform:skewY(-10deg);
+    
+
